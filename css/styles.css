@@ -46,9 +46,10 @@ body {
 
 }
 .menu-link{
-    
+    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
     text-decoration: none;
 }
 .menu-link:hover,
@@ -69,9 +70,10 @@ body {
 }
 
 .main-titel {
-    color: #fff;
+    color: var(--main-background);
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.36;
     margin: 0;
     margin-bottom: 30px;
     width: 640px;
@@ -90,11 +92,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.06em;
 }
 
 .titel-button:hover, 
 .titel-button:focus {
-    background-color: var (--background-titel-button);
+    background-color: var(--background-titel-button);
 }
 
 .order-titel { 
@@ -104,6 +107,7 @@ body {
 
 .advantage {
     font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: 1.14;
 }
@@ -146,7 +150,7 @@ body {
 .footer-contacts-city:hover,
 .footer-contacts-city:focus 
 {
-    color: var (--logo-blue);
+    color: var(--logo-blue);
 }
 
 .footer-contacts {
@@ -187,6 +191,7 @@ body {
     text-decoration: none;
 }
 .project-name {
+    color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
